@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+<Resource name="jdbc/trains" auth="Container" type="javax.sql.DataSource"
+username="root"
+password="password"
+driverClassName="com.mysql.jdbc.Driver"
+url="jdbc:mysql://localhost:3306/trains?allowMultiQueries=true"
+maxActive="10"/>
+</Context>
